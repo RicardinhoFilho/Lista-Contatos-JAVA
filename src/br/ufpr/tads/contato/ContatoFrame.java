@@ -39,7 +39,7 @@ public class ContatoFrame extends javax.swing.JFrame implements ControleDadosObs
         Connection conn = null;
         Contato[] contatos = null;
         try {
-            String url = "jdbc:mysql://localhost:3306/java_contato?user=root&password=tatu1964";
+            String url = "jdbc:mysql://localhost:3306/java_contato?user=root&password=teste";
             conn = DriverManager.getConnection(url);
 
             //ResultSet rs =(st.executeQuery("select * from contato"));
